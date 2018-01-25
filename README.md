@@ -15,7 +15,7 @@ http://npm.im/clipper-fpoint
 
 #### Browser
 
-`<script type="text/javascript" src="https://unpkg.com/clipper-fpoint@6.4.2.2/dist/clipper-fpoint.umd.js"></script>`
+`<script type="text/javascript" src="https://unpkg.com/clipper-fpoint@6.4.22/dist/clipper-fpoint.umd.js"></script>`
 
 ## Usage
 
