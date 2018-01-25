@@ -1,0 +1,20 @@
+{
+  "name": "clipper-fpoint",
+  "version": "6.4.22",
+  "main": "dist/clipper-fpoint.js",
+  "module": "dist/clipper-fpoint.m.js",
+  "source": "src/clipper_unminified.js",
+  "homepage": "https://github.com/johnrees/clipper-fpoint",
+  "scripts": {
+    "build": "rimraf dist && yarn build:umd && yarn build:cjs && yarn build:es",
+    "build:umd": "microbundle build --name ClipperLib --compress true --format umd",
+    "build:cjs": "microbundle build --compress false --format cjs",
+    "build:es": "microbundle build --compress false --format es"
+  },
+  "license": "BSL-1.0",
+  "devDependencies": {
+    "microbundle": "^0.4.2",
+    "prepack": "^0.2.20",
+    "rimraf": "^2.6.2"
+  }
+}
